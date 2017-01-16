@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'tron.apps.TronConfig',
     'authenticator.apps.AuthenticatorConfig',
     'consultor.apps.ConsultorConfig',
 
